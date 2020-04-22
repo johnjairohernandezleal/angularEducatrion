@@ -6,12 +6,12 @@ import {ProfileComponent} from '../users/profile/profile.component';
 
 const routes: Routes = [
   {
-    path: 'dashboard',
+    path: '',
     component: DashboardComponent
   },
   {
-    path: 'profile',
-    component: ProfileComponent
+    path: 'dashboard',
+    component: DashboardComponent
   }
 ];
 
