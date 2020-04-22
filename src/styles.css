@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+/** Crear estilo para el Menu izquierdo **/
+.main-container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.main-header {
+  height: 50px;
+  width: 100%;
+  background: #7e2199;
+  justify-items: end;
+}
+.left-menu {
+  width: 200px;
+  height: 100vh;
+  background: #7e2199;
+}
+.rigth-container {
+  width: calc(100% - 200px);
+}
+
+.avatar > img{
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 200px 200px 200px 200px;
+  cursor: pointer ;
+
+}
+
+.avatar{
+  padding-top: 4px;
+}
+
+.img-container {
+  max-width: 100px;
+  padding: 0px;
+  margin: 50px;
+}
+
+.btn{
+  border-radius: 0px;
+  margin-bottom: 5px;
+}
+
+.modal-header {
+  background: #7e2199;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: complex;
+}
+.modal-footer {
+  background: #7e2199;
+}
+
+.text-color {
+  color: white;
+}
+
